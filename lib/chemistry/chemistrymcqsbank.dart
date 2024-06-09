@@ -1,0 +1,86 @@
+import 'package:hingorja_buisness/components/Questions.dart';
+
+class QuizBrain {
+  List<Questions> chemistryQuestions = [
+    Questions(
+      "What is the molarity of a solution containing 5 moles of solute in 2 liters of solution?",
+      "A) 2.5 M",
+      "B) 0.4 M",
+      "C) 2 M",
+      "D) 5 M",
+      "A) 2.5 M",
+    ),
+    Questions(
+      "Which of the following is a strong electrolyte?",
+      "A) Acetic acid",
+      "B) Ammonia",
+      "C) Sodium chloride",
+      "D) Methanol",
+      "C) Sodium chloride",
+    ),
+    Questions(
+      "The rate of a chemical reaction doubles for every 10°C rise in temperature. This is an example of:",
+      "A) Le Chatelier's principle",
+      "B) Arrhenius equation",
+      "C) Van't Hoff rule",
+      "D) Rault's law",
+      "C) Van't Hoff rule",
+    ),
+    Questions(
+      "Which gas law relates the pressure and volume of a gas at constant temperature?",
+      "A) Charles's law",
+      "B) Boyle's law",
+      "C) Gay-Lussac's law",
+      "D) Avogadro's law",
+      "B) Boyle's law",
+    ),
+    Questions(
+      "What is the pH of a 0.01 M HCl solution?",
+      "A) 1",
+      "B) 2",
+      "C) 3",
+      "D) 4",
+      "B) 2",
+    ),
+    Questions(
+      "Which element has the highest electronegativity?",
+      "A) Fluorine",
+      "B) Chlorine",
+      "C) Bromine",
+      "D) Iodine",
+      "A) Fluorine",
+    ),
+    Questions(
+      "The hybridization of carbon in methane (CH₄) is:",
+      "A) sp",
+      "B) sp²",
+      "C) sp³",
+      "D) dsp²",
+      "C) sp³",
+    ),
+    Questions(
+      "Which of the following is not a redox reaction?",
+      "A) Combustion of methane",
+      "B) Respiration in humans",
+      "C) Photosynthesis",
+      "D) Dissolving sugar in water",
+      "D) Dissolving sugar in water",
+    ),
+    Questions(
+      "The IUPAC name for CH₃-CH₂-OH is:",
+      "A) Methanol",
+      "B) Ethanol",
+      "C) Propanol",
+      "D) Butanol",
+      "B) Ethanol",
+    ),
+    Questions(
+      "What is the main product of the reaction between an acid and a base?",
+      "A) Salt",
+      "B) Water",
+      "C) Hydrogen gas",
+      "D) Both A and B",
+      "D) Both A and B",
+    ),
+  ];
+}

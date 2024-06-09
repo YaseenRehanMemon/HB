@@ -1,0 +1,86 @@
+import 'package:hingorja_buisness/components/Questions.dart';
+
+class QuizBrain {
+  List<Questions> physicsQuestion = [
+    Questions(
+      "What is the SI unit of electric charge?",
+      "A) Coulomb",
+      "B) Ampere",
+      "C) Volt",
+      "D) Ohm",
+      "A) Coulomb",
+    ),
+    Questions(
+      "Which of the following statements about Newton's first law of motion is correct?",
+      "A) An object at rest remains at rest unless acted upon by an external force.",
+      "B) The acceleration of an object is directly proportional to the net force acting on it.",
+      "C) For every action, there is an equal and opposite reaction.",
+      "D) An object in motion continues to move with constant velocity unless acted upon by an external force.",
+      "D) An object in motion continues to move with constant velocity unless acted upon by an external force.",
+    ),
+    Questions(
+      "What is the critical angle for total internal reflection?",
+      "A) 45°",
+      "B) 60°",
+      "C) 90°",
+      "D) It depends on the medium.",
+      "D) It depends on the medium.",
+    ),
+    Questions(
+      "Which type of lens is used to correct nearsightedness (myopia)?",
+      "A) Convex lens",
+      "B) Concave lens",
+      "C) Bifocal lens",
+      "D) Plano-convex lens",
+      "B) Concave lens",
+    ),
+    Questions(
+      "What is the SI unit of power?",
+      "A) Watt",
+      "B) Joule",
+      "C) Newton",
+      "D) Volt",
+      "A) Watt",
+    ),
+    Questions(
+      "Which law states that the pressure of a gas is inversely proportional to its volume at constant temperature?",
+      "A) Boyle's law",
+      "B) Charles's law",
+      "C) Gay-Lussac's law",
+      "D) Avogadro's law",
+      "A) Boyle's law",
+    ),
+    Questions(
+      "What is the wavelength of visible light with the longest wavelength?",
+      "A) Red",
+      "B) Blue",
+      "C) Green",
+      "D) Violet",
+      "A) Red",
+    ),
+    Questions(
+      "Which subatomic particle has a positive charge?",
+      "A) Electron",
+      "B) Proton",
+      "C) Neutron",
+      "D) Positron",
+      "B) Proton",
+    ),
+    Questions(
+      "What is the value of acceleration due to gravity on the surface of Earth?",
+      "A) 9.8 m/s²",
+      "B) 10 m/s²",
+      "C) 9.81 m/s²",
+      "D) 9.83 m/s²",
+      "C) 9.81 m/s²",
+    ),
+    Questions(
+      "Which electromagnetic wave has the highest frequency?",
+      "A) Radio waves",
+      "B) Microwaves",
+      "C) X-rays",
+      "D) Gamma rays",
+      "D) Gamma rays",
+    ),
+  ];
+}
